@@ -1,0 +1,106 @@
+html{
+    scroll-behavior: smooth;
+}
+ body{
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+h1,h2,h3,h4,h5,h6{ font-family: 'Roboto', sans-serif;}
+.hr-style{border: 5px dotted white;border-bottom: none;width: 50px;
+
+}
+.section-title h3{font-weight: bolder;margin-bottom: 0;}
+
+ header{background-image: url(images/banner.jpg);
+background-position: center;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;height: 100vh;
+
+} 
+button .navbar-icon{color: white;}
+.navbar{background-color: rgba(0,0,0,.2);padding: 1% 10%;
+}
+.navbar-brand img{width: 50px;height: auto;}
+.nav-link{color: white;padding: 10px;margin-right: 8px;border-radius: 5px;
+    transition: .5s;
+}
+.nav-link:hover{color: white;background-color:#2980b9 ;transform: scale(1.1);
+}
+.banner-container h1{font-size: 3.5rem;background-color: rgba(7,101,189,.4);
+padding: 10px 20px;border-radius: 5px;
+font-family: 'Handlee', cursive;
+
+}
+
+.banner-section{margin-top: 10rem;}
+
+.btn-icon{margin-right: 8px;}
+/* features start */
+#features{padding: 5% 10%;background-color: #e8ded2;
+
+}
+.features-col{padding: 15px;border: 1px solid #ff02c0;margin: 20px 5px;border-radius: 5px;transition: .4s;
+
+}
+.features-col:hover{transform: scale(1.1);box-shadow: 2px 6px 4px black;
+
+}
+.icon-style{background-color: #bb0aac;color: white;padding: 15px;margin: 15px 0;
+
+
+}
+/* features end */
+
+
+/* about me start */
+#about-me{
+    padding: 4% 10%;background-color: #e8ded2;
+}
+#about-me p{
+    font-size: .9rem;font-weight: light;margin-bottom: 0;
+}
+#about-me a{
+    font-size: .9rem;font-weight: lighter;color: black;text-decoration: underline;
+}
+.achieve-desc span{font-weight: bold!important;}
+
+table td{font-weight: bolder;}
+
+#card-section{padding: 2% 5%;
+    background-color: #96CEB4;
+}
+#card-section .card{margin-top: 2rem;transition: .4s;border-color: #ff02c0;}
+#card-section .card:hover{
+    transform: scale(1.05);box-shadow: 2px 6px 5px black;
+}
+
+
+/* feedback start */
+
+#feedback{
+ padding: 10% 15%;background-image: linear-gradient(#96CEB4,#24A19C);
+
+}
+.carousel-item{padding:7% 15% ;text-align: center;font-style: italic;}
+
+.feedback-img{width: 220px;height: auto;margin-bottom: 20px;}
+
+
+/* contact start */
+#contact{
+    padding: 2% 10%;background-color: #5eaaa8;
+   
+}
+
+.form-group label{
+    font-weight: bold;
+}
+/* contact end */
+
+/* footer start */
+
+footer{background-color:#056676;padding: 1% 10%;}
+footer a {color: white;text-decoration: none;}
+footer a i{color: white;margin: 0 5px;transition: .3s;}
+footer a i:hover{color: rgb(73, 65, 65);margin: 3px;transform: scale(1.4);}
+
+/* footer end */
